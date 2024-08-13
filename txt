@@ -1,0 +1,7 @@
+<div class="left-two"></div>
+<div class="right-two">
+    <h3>Frontend & WordPress Developer</h3>
+    <h4>Devcode Digital</h4>
+    <span>2022 - PRENSENT</span>
+
+</div>
