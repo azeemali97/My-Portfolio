@@ -59,3 +59,22 @@ function runOnMobile() {
 
 
 runOnMobile();
+
+
+let dbtn =  document.querySelector(".cv-download");
+let cv   =  document.querySelector(".cv");
+let content = document.querySelector(".cv-content");
+dbtn.addEventListener('mouseover',function chn() {
+
+  cv.style.backgroundColor = "white";
+  content.style.color = "black"; 
+  
+  
+});
+dbtn.addEventListener('mouseout',function chn2() {
+
+  cv.style.backgroundColor = ""; 
+  content.style.color = ""; 
+  
+  
+});
