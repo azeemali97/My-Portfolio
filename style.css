@@ -311,7 +311,7 @@ position: sticky;
   border: 2px #fff solid ;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .experience-wrap {
     padding: 3rem 0rem;
     display: grid;
@@ -356,7 +356,7 @@ position: sticky;
     background-image: url(assets/image/mobile\ bg\ hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width:100vw;
     height: 100vh;
     color: black;
     display: flex;
@@ -431,5 +431,31 @@ position: sticky;
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+
+  #btn-download{
+    padding: 0.8rem 2rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+  &:hover
+  {
+    background-color: black;
+    color: white;
+  
+  }
+  
+  }
+  
+  
+  .cv-content{
+  
+    color: white;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
   }
 }
