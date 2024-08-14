@@ -311,7 +311,7 @@ position: sticky;
   border: 2px #fff solid ;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .experience-wrap {
     padding: 3rem 0rem;
     display: grid;
