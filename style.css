@@ -305,8 +305,10 @@ position: sticky;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
+}
+.portfolio-card{
 
-
+  border: 2px #fff solid ;
 }
 
 @media only screen and (max-width: 600px) {
